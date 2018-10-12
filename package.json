@@ -1,14 +1,19 @@
 {
   "name": "el-input-number-only",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "description": "element-ui el-input-number-only, don't show letters in input box",
+  "main": "src/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "demo": "vue-cli-service serve"
+  },
+  "homepage": "https://github.com/AsherWang/el-input-number-only",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AsherWang/el-input-number-only.git"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "element-ui": "^2.0.0",
+    "vue": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
@@ -21,5 +26,7 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "auther": "AsherWang",
+  "license": "MIT"
 }
