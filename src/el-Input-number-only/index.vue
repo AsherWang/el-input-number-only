@@ -110,10 +110,8 @@ export default {
     modifyByPattern() {
       const { input } = this.$refs;
       const rightValue = input.value.replace(this.pattern, '');
-      console.log(`preValue: ${this.preValue}, newValue: ${input.value},rightValue: ${rightValue}`);
       if (input.value !== rightValue) {
         const pos = this.findPos(input.value, rightValue);
-        console.log(`pos -> ${pos}`);
         input.value = rightValue;
         this.setCursorPosition(input, pos, pos);
       }
