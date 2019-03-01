@@ -1,6 +1,6 @@
 {
   "name": "el-input-number-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "element-ui el-input-number-only, don't show letters in input box",
   "main": "src/index.js",
   "scripts": {
