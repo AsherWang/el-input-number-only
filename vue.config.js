@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/el-input-number-only/'
+    ? '/el-input-number-only/dist/'
     : '/',
   pages: {
     index: {

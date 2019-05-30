@@ -2,7 +2,11 @@
 - 只允许输入数字, 而不是等输入其他字符之后再提示错误  
 - `type=number`允许输入`+-.e`  
 - only allow input number, instead of showing error message after value changed  
-- `type=number`will allow characters `+-.e`    
+- `type=number`will allow characters `+-.e`   
+
+#### demo
+[Click Me](https://asherwang.github.io/el-input-number-only/dist/)
+
 #### install  
 `npm i el-input-number-only -S`  
 #### usage  
