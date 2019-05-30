@@ -4,7 +4,9 @@
   "description": "element-ui el-input-number-only, don't show letters in input box",
   "main": "src/index.js",
   "scripts": {
-    "demo": "vue-cli-service serve"
+    "demo": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "update:demo": "git subtree push --prefix dist origin gh-pages"
   },
   "homepage": "https://github.com/AsherWang/el-input-number-only",
   "repository": {

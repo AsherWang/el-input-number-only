@@ -1,4 +1,7 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/el-input-number-only/'
+    : '/',
   pages: {
     index: {
       entry: 'demo/main.js',
